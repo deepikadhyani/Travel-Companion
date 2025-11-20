@@ -1,0 +1,17 @@
+# Xcode
+DerivedData/
+*.xcuserdata
+*.xcuserstate
+*.xcscmblueprint
+xcshareddata/
+
+# SwiftPM / Xcode caches
+.swiftpm/
+.swiftpm.xcodeproj/
+*.package.resolved
+
+# macOS
+.DS_Store
+
+# Do NOT ignore packages/ - we want local packages tracked
+# packages/

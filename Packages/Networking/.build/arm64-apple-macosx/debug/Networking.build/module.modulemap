@@ -1,0 +1,4 @@
+module Networking {
+    header "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Networking.build/Networking-Swift.h"
+    requires objc
+}

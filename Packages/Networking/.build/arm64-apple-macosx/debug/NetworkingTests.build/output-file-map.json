@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingTests.build/master.swiftdeps"
+  },
+  "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/Tests/NetworkingTests/NetworkingTests.swift": {
+    "dependencies": "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingTests.build/NetworkingTests.d",
+    "object": "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingTests.build/NetworkingTests.swift.o",
+    "swiftmodule": "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingTests.build/NetworkingTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingTests.build/NetworkingTests.swiftdeps"
+  }
+}

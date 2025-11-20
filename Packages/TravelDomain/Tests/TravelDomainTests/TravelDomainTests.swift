@@ -1,6 +1,6 @@
-import Testing
+import XCTest
 @testable import TravelDomain
 
-@Test func example() async throws {
-    // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+final class TravelDomainTests: XCTestCase {
+    func testSmoke() { XCTAssertTrue(true) }
 }

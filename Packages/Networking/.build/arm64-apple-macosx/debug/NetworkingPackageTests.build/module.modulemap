@@ -1,0 +1,4 @@
+module NetworkingPackageTests {
+    header "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.build/NetworkingPackageTests-Swift.h"
+    requires objc
+}

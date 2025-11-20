@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/.build/arm64-apple-macosx/debug/UtilitiesPackageTests.build/master.swiftdeps"
+  },
+  "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/.build/arm64-apple-macosx/debug/UtilitiesPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/.build/arm64-apple-macosx/debug/UtilitiesPackageTests.build/runner.d",
+    "object": "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/.build/arm64-apple-macosx/debug/UtilitiesPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/.build/arm64-apple-macosx/debug/UtilitiesPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/.build/arm64-apple-macosx/debug/UtilitiesPackageTests.build/runner.swiftdeps"
+  }
+}

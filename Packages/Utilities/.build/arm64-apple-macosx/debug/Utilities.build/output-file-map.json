@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/.build/arm64-apple-macosx/debug/Utilities.build/master.swiftdeps"
+  },
+  "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/Sources/Utilities/Logger.swift": {
+    "dependencies": "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/.build/arm64-apple-macosx/debug/Utilities.build/Logger.d",
+    "object": "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/.build/arm64-apple-macosx/debug/Utilities.build/Logger.swift.o",
+    "swiftmodule": "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/.build/arm64-apple-macosx/debug/Utilities.build/Logger~partial.swiftmodule",
+    "swift-dependencies": "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/.build/arm64-apple-macosx/debug/Utilities.build/Logger.swiftdeps"
+  },
+  "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/Sources/Utilities/Utilities.swift": {
+    "dependencies": "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/.build/arm64-apple-macosx/debug/Utilities.build/Utilities.d",
+    "object": "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/.build/arm64-apple-macosx/debug/Utilities.build/Utilities.swift.o",
+    "swiftmodule": "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/.build/arm64-apple-macosx/debug/Utilities.build/Utilities~partial.swiftmodule",
+    "swift-dependencies": "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/.build/arm64-apple-macosx/debug/Utilities.build/Utilities.swiftdeps"
+  }
+}

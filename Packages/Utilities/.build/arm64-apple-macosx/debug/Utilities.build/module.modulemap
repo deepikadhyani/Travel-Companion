@@ -1,0 +1,4 @@
+module Utilities {
+    header "/Users/apple/Documents/Swift/Travel-Companion/packages/Utilities/.build/arm64-apple-macosx/debug/Utilities.build/Utilities-Swift.h"
+    requires objc
+}

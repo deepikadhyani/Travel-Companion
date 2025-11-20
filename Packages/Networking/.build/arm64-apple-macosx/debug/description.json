@@ -1,0 +1,836 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.xctest/Contents/MacOS/NetworkingPackageTests",
+      "packagePath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking",
+      "productName" : "NetworkingPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Networking-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Networking.build/sources",
+      "importPath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/Sources/Networking/APIClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/Sources/Networking/DestinationAPI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules/TravelDomain.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Networking.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Networking",
+      "moduleOutputPath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules/Networking.swiftmodule",
+      "objects" : [
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Networking.build/APIClient.swift.o",
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Networking.build/DestinationAPI.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Networking.build/Networking-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "networking"
+      ],
+      "outputFileMapPath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Networking.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Networking.build/APIClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Networking.build/DestinationAPI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules/Networking.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/Sources/Networking/APIClient.swift",
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/Sources/Networking/DestinationAPI.swift"
+      ],
+      "tempsPath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Networking.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.NetworkingPackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.build/sources",
+      "importPath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules/NetworkingTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "NetworkingPackageTests",
+      "moduleOutputPath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules/NetworkingPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.build/NetworkingPackageTests-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "networking"
+      ],
+      "outputFileMapPath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules/NetworkingPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.NetworkingTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingTests.build/sources",
+      "importPath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/Tests/NetworkingTests/NetworkingTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules/Networking.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "NetworkingTests",
+      "moduleOutputPath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules/NetworkingTests.swiftmodule",
+      "objects" : [
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingTests.build/NetworkingTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "networking"
+      ],
+      "outputFileMapPath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingTests.build/NetworkingTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules/NetworkingTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/Tests/NetworkingTests/NetworkingTests.swift"
+      ],
+      "tempsPath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.TravelDomain-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/sources",
+      "importPath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Sources/TravelDomain/Destination.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Sources/TravelDomain/TravelDomain.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "TravelDomain",
+      "moduleOutputPath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules/TravelDomain.swiftmodule",
+      "objects" : [
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/Destination.swift.o",
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/TravelDomain.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/TravelDomain-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "traveldomain"
+      ],
+      "outputFileMapPath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/Destination.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/TravelDomain.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules/TravelDomain.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Sources/TravelDomain/Destination.swift",
+        "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Sources/TravelDomain/TravelDomain.swift"
+      ],
+      "tempsPath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Networking" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Networking",
+      "-package-name",
+      "networking",
+      "-incremental",
+      "-c",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/Sources/Networking/APIClient.swift",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/Sources/Networking/DestinationAPI.swift",
+      "-I",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Networking.build/Networking-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "networking",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "NetworkingPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "NetworkingPackageTests",
+      "-package-name",
+      "networking",
+      "-incremental",
+      "-c",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.build/NetworkingPackageTests-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "networking",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "NetworkingTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "NetworkingTests",
+      "-package-name",
+      "networking",
+      "-incremental",
+      "-c",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/Tests/NetworkingTests/NetworkingTests.swift",
+      "-I",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "networking",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "TravelDomain" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "TravelDomain",
+      "-package-name",
+      "traveldomain",
+      "-incremental",
+      "-c",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Sources/TravelDomain/Destination.swift",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Sources/TravelDomain/TravelDomain.swift",
+      "-I",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/TravelDomain-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "traveldomain",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Networking" : [
+      "TravelDomain"
+    ],
+    "NetworkingPackageTests" : [
+      "NetworkingTests",
+      "Networking",
+      "TravelDomain"
+    ],
+    "NetworkingTests" : [
+      "Networking",
+      "TravelDomain"
+    ],
+    "TravelDomain" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Networking.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/Sources/Networking/APIClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/Sources/Networking/DestinationAPI.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Networking.build/sources"
+    },
+    "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.build/sources"
+    },
+    "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Networking.build/APIClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/Networking.build/DestinationAPI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingTests.build/NetworkingTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/Destination.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/TravelDomain.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/Tests/NetworkingTests/NetworkingTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/NetworkingTests.build/sources"
+    },
+    "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Sources/TravelDomain/Destination.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Sources/TravelDomain/TravelDomain.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/sources"
+    },
+    "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

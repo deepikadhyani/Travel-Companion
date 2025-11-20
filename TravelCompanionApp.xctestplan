@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "EE78FA92-56D2-457B-BFB8-BFA260608622",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "mainThreadCheckerEnabled" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TravelCompanionApp.xcodeproj",
+      "identifier" : "18C8CD9F2ECDC59500C594F5",
+      "name" : "TravelCompanionApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TravelCompanionApp.xcodeproj",
+        "identifier" : "18C8CDAC2ECDC59700C594F5",
+        "name" : "TravelCompanionAppTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TravelCompanionApp.xcodeproj",
+        "identifier" : "18C8CDB62ECDC59700C594F5",
+        "name" : "TravelCompanionAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

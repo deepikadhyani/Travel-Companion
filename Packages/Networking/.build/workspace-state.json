@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "traveldomain",
+          "kind" : "fileSystem",
+          "location" : "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain",
+          "name" : "TravelDomain"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain"
+        },
+        "subpath" : "traveldomain"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

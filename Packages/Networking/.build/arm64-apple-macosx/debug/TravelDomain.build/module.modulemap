@@ -1,0 +1,4 @@
+module TravelDomain {
+    header "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/TravelDomain-Swift.h"
+    requires objc
+}

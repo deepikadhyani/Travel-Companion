@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/master.swiftdeps"
+  },
+  "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Sources/TravelDomain/Destination.swift": {
+    "dependencies": "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/Destination.d",
+    "object": "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/Destination.swift.o",
+    "swiftmodule": "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/Destination~partial.swiftmodule",
+    "swift-dependencies": "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/Destination.swiftdeps"
+  },
+  "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Sources/TravelDomain/TravelDomain.swift": {
+    "dependencies": "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/TravelDomain.d",
+    "object": "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/TravelDomain.swift.o",
+    "swiftmodule": "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/TravelDomain~partial.swiftmodule",
+    "swift-dependencies": "/Users/apple/Documents/Swift/Travel-Companion/packages/Networking/.build/arm64-apple-macosx/debug/TravelDomain.build/TravelDomain.swiftdeps"
+  }
+}

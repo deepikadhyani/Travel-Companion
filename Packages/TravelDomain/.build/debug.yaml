@@ -1,0 +1,112 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "TravelDomain-arm64-apple-macosx15.0-debug.module": ["<TravelDomain-arm64-apple-macosx15.0-debug.module>"]
+  "TravelDomainPackageTests-arm64-apple-macosx15.0-debug.module": ["<TravelDomainPackageTests-arm64-apple-macosx15.0-debug.module>"]
+  "TravelDomainPackageTests-arm64-apple-macosx15.0-debug.test": ["<TravelDomainPackageTests-arm64-apple-macosx15.0-debug.test>"]
+  "TravelDomainTests-arm64-apple-macosx15.0-debug.module": ["<TravelDomainTests-arm64-apple-macosx15.0-debug.module>"]
+  "main": ["<TravelDomain-arm64-apple-macosx15.0-debug.module>"]
+  "test": ["<TravelDomain-arm64-apple-macosx15.0-debug.module>","<TravelDomainPackageTests-arm64-apple-macosx15.0-debug.test>","<TravelDomainTests-arm64-apple-macosx15.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Sources/TravelDomain/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Tests/TravelDomainTests/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomain.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Sources/TravelDomain/Destination.swift","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Sources/TravelDomain/TravelDomain.swift"]
+    outputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomain.build/sources"]
+    description: "Write auxiliary file /Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomain.build/sources"
+
+  "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.derived/runner.swift"]
+    outputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.build/sources"]
+    description: "Write auxiliary file /Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.build/sources"
+
+  "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.derived/runner.swift":
+    tool: test-entry-point-tool
+    inputs: []
+    outputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.derived/runner.swift"]
+
+  "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomain.build/Destination.swift.o","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomain.build/TravelDomain.swift.o","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.build/runner.swift.o","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainTests.build/TravelDomainTests.swift.o"]
+    outputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.product/Objects.LinkFileList"
+
+  "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Tests/TravelDomainTests/TravelDomainTests.swift"]
+    outputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainTests.build/sources"]
+    description: "Write auxiliary file /Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainTests.build/sources"
+
+  "/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<TravelDomain-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomain.build/Destination.swift.o","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomain.build/TravelDomain.swift.o","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/Modules/TravelDomain.swiftmodule"]
+    outputs: ["<TravelDomain-arm64-apple-macosx15.0-debug.module>"]
+
+  "<TravelDomainPackageTests-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.build/runner.swift.o","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/Modules/TravelDomainPackageTests.swiftmodule"]
+    outputs: ["<TravelDomainPackageTests-arm64-apple-macosx15.0-debug.module>"]
+
+  "<TravelDomainPackageTests-arm64-apple-macosx15.0-debug.test>":
+    tool: phony
+    inputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.xctest/Contents/MacOS/TravelDomainPackageTests"]
+    outputs: ["<TravelDomainPackageTests-arm64-apple-macosx15.0-debug.test>"]
+
+  "<TravelDomainTests-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainTests.build/TravelDomainTests.swift.o","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/Modules/TravelDomainTests.swiftmodule"]
+    outputs: ["<TravelDomainTests-arm64-apple-macosx15.0-debug.module>"]
+
+  "C.TravelDomain-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Sources/TravelDomain/Destination.swift","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Sources/TravelDomain/TravelDomain.swift","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomain.build/sources"]
+    outputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomain.build/Destination.swift.o","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomain.build/TravelDomain.swift.o","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/Modules/TravelDomain.swiftmodule"]
+    description: "Compiling Swift Module 'TravelDomain' (2 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","TravelDomain","-emit-dependencies","-emit-module","-emit-module-path","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/Modules/TravelDomain.swiftmodule","-output-file-map","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomain.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomain.build/sources","-I","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx10.13","-enable-batch-mode","-index-store-path","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j10","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomain.build/TravelDomain-Swift.h","-color-diagnostics","-swift-version","5","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","traveldomain"]
+
+  "C.TravelDomainPackageTests-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.derived/runner.swift","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/Modules/TravelDomainTests.swiftmodule","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.build/sources"]
+    outputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.build/runner.swift.o","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/Modules/TravelDomainPackageTests.swiftmodule"]
+    description: "Compiling Swift Module 'TravelDomainPackageTests' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","TravelDomainPackageTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/Modules/TravelDomainPackageTests.swiftmodule","-output-file-map","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.build/sources","-I","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx10.13","-enable-batch-mode","-index-store-path","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j10","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.build/TravelDomainPackageTests-Swift.h","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","traveldomain"]
+
+  "C.TravelDomainPackageTests-arm64-apple-macosx15.0-debug.test":
+    tool: shell
+    inputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomain.build/Destination.swift.o","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomain.build/TravelDomain.swift.o","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.build/runner.swift.o","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainTests.build/TravelDomainTests.swift.o","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.product/Objects.LinkFileList"]
+    outputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.xctest/Contents/MacOS/TravelDomainPackageTests"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/TravelDomainPackageTests.xctest/Contents/MacOS/TravelDomainPackageTests"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug","-o","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.xctest/Contents/MacOS/TravelDomainPackageTests","-module-name","TravelDomainPackageTests","-Xlinker","-no_warn_duplicate_libraries","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainPackageTests.product/Objects.LinkFileList","-target","arm64-apple-macosx14.0","-Xlinker","-add_ast_path","-Xlinker","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/Modules/TravelDomain.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/Modules/TravelDomainPackageTests.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/Modules/TravelDomainTests.swiftmodule","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g"]
+
+  "C.TravelDomainTests-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Tests/TravelDomainTests/TravelDomainTests.swift","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/Modules/TravelDomain.swiftmodule","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainTests.build/sources"]
+    outputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainTests.build/TravelDomainTests.swift.o","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/Modules/TravelDomainTests.swiftmodule"]
+    description: "Compiling Swift Module 'TravelDomainTests' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","TravelDomainTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/Modules/TravelDomainTests.swiftmodule","-output-file-map","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/TravelDomainTests.build/sources","-I","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx14.0","-enable-batch-mode","-index-store-path","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j10","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-color-diagnostics","-swift-version","5","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","traveldomain"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Sources/TravelDomain/","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Tests/TravelDomainTests/","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Package.swift","/Users/apple/Documents/Swift/Travel-Companion/packages/TravelDomain/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
